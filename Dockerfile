@@ -5,4 +5,4 @@ COPY ./home/mubin/requirements.txt /opt
 WORKDIR /opt
 RUN pip3 --no-cache-dir install -r requirements.txt
 EXPOSE 5000
-CMD ["python", "find_company_name_by_mac_address.py", 44:38:39:ff:ef:57"]
+CMD ["python", "find_company_name_by_mac_address.py", "44:38:39:ff:ef:57"]
